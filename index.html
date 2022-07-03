@@ -1,84 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<meta charset="UTF-8">
+        <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="김또미 - 프로필 링크">
-    <meta property="og:description" content="또미는 대충 살래~">
-    <meta property="og:image" content="김또미.png">
-    <title>김또미 - 프로필 링크</title>
+    <meta property="og:title" content="김또미 - 프로필">
+    <meta property="og:description" content="대~충 뚝딱뚝딱">
+    <meta property="og:image" content="김또미프로필.png">
+    <title>김또미 - 프로필</title>
     <style>
-        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        @import url('https://hangeul.pstatic.net/hangeul_static/css/NanumMasIssNeunCe.css');
         * {
-            font-family: "Pretendard",serif;
-}
+            font-family: 'NanumMasIssNeunCe';
+            font-weight: bolder;
+        }
     body {
         background-image: url('김또미체크.png');
         background-size: 133px 133px;
-
     }
     .profile {
-        width: 130px;
-        height: 130px;
+        width: 115px;
+        height: 115px;
 
+        background-color: #fbfaf9;
         border-radius: 100%;
-    
+        border: 2px solid #cdadd2;
+
         background-image: url('김또미프로필.png');
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
 
+
         margin-top: 100px;
     }
     .main {
-        width: 70px;
-        height: 23px;
+        color: #cdadd2;
+        font-size: 33px;
+        
+        text-shadow: -1px 0px #fbfaf9, 0px 1px #fbfaf9, 1px 0px #fbfaf9, 0px -1px #fbfaf9;
 
-        background-image: url('김또미이름표.png');
         background-position: center;
         background-size: cover;
 
-        margin-top: 10px;
+        margin-top: 5px;
+        margin-bottom: 0px;
     }
     .sub {
-        width: 94px;
-        height: 20px;
+        color: #cdadd2;
+        font-size: 20px;
 
-        background-image: url('대충만드는.png');
+        text-shadow: -1px 0px #fbfaf9, 0px 1px #fbfaf9, 1px 0px #fbfaf9, 0px -1px #fbfaf9;
+
         background-position: center;
         background-size: cover;
 
         margin-top: 0px;
-        margin-bottom: 20px;
-    }
-    .you {
-        margin-bottom: 10px;
-    }
-    .ins {
-        margin-bottom: 10px;
-    }
-    .podo {
-        width: 226px;
-        height: 44px;
-
-        background-image: url('포도.png');
-        background-position: center;
-        background-size: cover;
-
-        margin-top: 50px;
-    }
-    .copy {
-        
-        width: 234px;
-        height: 19px;
-
-        background-image: url('copyright.png');
-        background-position: center;
-        background-size: cover;
-
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
     .wrap {
         width: 300px;
@@ -89,25 +67,108 @@
         justify-content: center;
         align-items: center;
     }
+    .you > a {
+        width: 200px;
+        height: 40px;
+
+        background-color: #c0b6d9;
+        border-radius: 8px;
+
+        margin-bottom: 15px;
+
+        font-size: 20px;
+        font-weight: bold;
+        color: #fbfaf9;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-decoration: none;
+    }
+    .you > a:hover {
+        background-color: #cfe0da;
+    }
+    .ins > a {
+        width: 200px;
+        height: 40px;
+
+        background-color: #cdadd2;
+        border-radius: 8px;
+
+        margin-bottom: 15px;
+
+        font-size: 20px;
+        font-weight: bold;
+        color: #fbfaf9;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-decoration: none;
+    }
+    .ins > a:hover {
+        background-color: #cfe0da;
+    }
+    .blo > a {
+        width: 200px;
+        height: 40px;
+
+        background-color: #c0b6d9;
+        border-radius: 8px;
+
+        margin-bottom: 15px;
+
+        font-size: 20px;
+        font-weight: bold;
+        color: #fbfaf9;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-decoration: none;
+    }
+    .blo > a:hover {
+        background-color: #cfe0da;
+    }
+    .podo {
+        width: 226px;
+        height: 44px;
+
+        background-image: url('포도.png');
+        background-position: center;
+        background-size: cover;
+
+        margin-top: 40px;
+    }
+    .copy {
+        color: #cfe0da;
+        font-size: 13px;
+        
+        text-shadow: -1px 0px #fbfaf9, 0px 1px #fbfaf9, 1px 0px #fbfaf9, 0px -1px #fbfaf9;
+
+        margin-top: 43px;
+    }
     </style>
 </head>
 <body>
     <div class="wrap">   
         <div class="profile"></div>
-        <div class="main"></div>
-        <div class="sub"></div>
+        <div class="main">김또미</div>
+        <div class="sub">대충 만드는 또미 공방</div>
         <div class="you">
-            <a target="_blank" href="https://www.youtube.com/channel/UC-SAdb_a-CD8PDF5TuWlURQ"><image src="https://github.com/ttomi-kim/ttomi/blob/main/유튜브.png?raw=true"></image></image></a>
-        </div>
+        <a target="_blank" href="https://www.youtube.com/channel/UC-SAdb_a-CD8PDF5TuWlURQ">김또미 유튜브 보러가기</a></div>
         <div class="ins">
-            <a target="_blank" href="https://www.instagram.com/ttomi_kim/"><image src="https://github.com/ttomi-kim/ttomi/blob/main/인스타.png?raw=true"></image></a>
-        </div>
+        <a target="_blank" href="https://www.instagram.com/ttomi_kim/">김또미 인스타그램 가기</a></div>
         <div class="blo">
-            <a target="_blank" href="https://blog.naver.com/ttargee"><image src="https://github.com/ttomi-kim/ttomi/blob/main/블로그.png?raw=true"></image></a>
-        </div>
+        <a target="_blank" href="https://blog.naver.com/ttargee">김또미 블로그 놀러 가기</a></div>
         <div class="podo"></div>
-        <div class="copy"></div>
+        <div class="copy">COPYRIGHT (C) 2022. 김또미 ALL RIGHTS RESERVED.</div>
     </div>
-
 </body>
 </html>
